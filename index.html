@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo's list </title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+
+    <!-- table2excel plugin via CDN -->
+    <script src="https://cdn.rawgit.com/rainabba/jquery-table2excel/1.1.0/dist/jquery.table2excel.min.js"></script>
+
+
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="todo-web">
+            <h2>To-Do List <img src="/images/icon.png" alt=""></h2>
+            <div id="validation-message" style="color: red;"></div>
+            <div class="row">
+                <input type="text" id="inputbox" placeholder="Add your text">
+                <button onclick="AddTask()">Save</button>
+            </div>
+
+
+            <div id="table-container">
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <script src="/script.js"></script>
+</body>
+
+</html>
